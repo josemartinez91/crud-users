@@ -1,0 +1,99 @@
+/* .App {
+  text-align: center;
+}
+ */
+body {
+  background-color: whitesmoke;
+}
+
+.modal-container {
+  text-align: end;
+  margin-right: 7rem;
+  padding-top: 5rem;
+  color: #1976d2;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card-li {
+  width: 33.33%;
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cars-user-div {
+  border: 1px solid #1976d2;
+  border-radius: 1rem;
+  width: 70%;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  color: #1976d2;
+}
+
+.button-modal {
+  border: 1px solid;
+  border-radius: 1rem;
+  background-color: #1976d2;
+  color: white;
+}
+
+.title-container {
+
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.h1-list {
+  border: 1px solid #1976d2;
+  width: 100%;
+
+  background-color: #1976d2;
+  color: aliceblue;
+}
+
+.li-button {
+  width: 3rem;
+  height: 2rem;
+  border: none;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.li-button-delete{
+  color: red;
+}
+.modal-title{
+  text-align: center;
+  color: #1976d2;
+  margin-bottom: 1rem;
+  
+}
+.form-container{
+  color: #1976d2;
+}
+
+.form-container div{
+  margin-bottom: 1rem;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
+.form-container div input{
+  height:  2rem;
+}
+.form-container div button{
+  margin-bottom: 1rem;
+  height: 2rem;
+  background-color: #1976d2;
+  border: #1976d2;
+  color: white;
+  font-size: larger;
+  border-radius:1rem ;
+  cursor: pointer;
+}
